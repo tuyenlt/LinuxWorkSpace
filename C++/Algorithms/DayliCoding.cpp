@@ -3,6 +3,8 @@
 #include <unordered_map>
 #include <map>
 #include <algorithm>
+#include <stdio.h>
+#include <fstream>
 
 using namespace std;
 
@@ -84,17 +86,13 @@ bool DragonFight(int MyPower,multimap<int,int> Dra){
 
 
 int main(){
-    double in = 0;
-    double out = 0;
-    int test = 100000;
-    for(int i =0;i<test;i++){
-        int x = random(0,100);
-        int y = random(0,100);
-        if(x*x + y*y >= 100*100) out ++;
-        else in++;
+    fstream data("input.txt");
+    int a[100];
+    int i = 0;
+    while (data >>a[i])
+    {
+        i++;
     }
-    cout << in << " " << out << endl;
-    double pi = (in/(in+out))*4;
-    cout << pi;
+    cout << i;
     return 0;
 }
