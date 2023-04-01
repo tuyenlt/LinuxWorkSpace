@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\TuyenLt\LinuxWorkSpace\C++\Algorithms\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TuyenLt\LinuxWorkSpace\C++\Algorithms\learnlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\TuyenLt\LinuxWorkSpace\C++\Algorithms\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6C1089C8-4824-354D-8B12-86EA2B3A7115}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

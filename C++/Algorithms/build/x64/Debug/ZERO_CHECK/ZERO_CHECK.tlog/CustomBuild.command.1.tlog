@@ -1,0 +1,10 @@
+^E:\TUYENLT\LINUXWORKSPACE\C++\ALGORITHMS\BUILD\CMAKEFILES\0055890167949624ACB09C60BC00CD9D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/TuyenLt/LinuxWorkSpace/C++/Algorithms -BE:/TuyenLt/LinuxWorkSpace/C++/Algorithms/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/TuyenLt/LinuxWorkSpace/C++/Algorithms/build/algorithms.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

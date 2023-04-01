@@ -53,6 +53,7 @@ class Pawn(Chesspiece):
             if self.pos_y == spawn_y:   
                 if self.broad.box[self.pos_x][self.pos_y + 2*direction].placed == "":
                     self.move_able_pos.append((self.pos_x, self.pos_y + 2*direction)) 
+        
                
         if self.pos_x > 0 and self.broad.box[self.pos_x-1][self.pos_y+direction].placed == self.enemy_color:
             self.move_able_pos.append((self.pos_x-1,self.pos_y+direction))

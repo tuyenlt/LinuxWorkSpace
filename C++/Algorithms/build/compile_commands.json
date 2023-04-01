@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/mnt/e/TuyenLt/LinuxWorkSpace/C++/Algorithms/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/algorithms.dir/main.cpp.o -c /mnt/e/TuyenLt/LinuxWorkSpace/C++/Algorithms/main.cpp",
+  "file": "/mnt/e/TuyenLt/LinuxWorkSpace/C++/Algorithms/main.cpp"
+},
+{
+  "directory": "/mnt/e/TuyenLt/LinuxWorkSpace/C++/Algorithms/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/algorithms.dir/learnlib.cpp.o -c /mnt/e/TuyenLt/LinuxWorkSpace/C++/Algorithms/learnlib.cpp",
+  "file": "/mnt/e/TuyenLt/LinuxWorkSpace/C++/Algorithms/learnlib.cpp"
+}
+]

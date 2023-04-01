@@ -1,0 +1,10 @@
+^E:\TUYENLT\LINUXWORKSPACE\C++\ALGORITHMS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/TuyenLt/LinuxWorkSpace/C++/Algorithms -BE:/TuyenLt/LinuxWorkSpace/C++/Algorithms/build --check-stamp-file E:/TuyenLt/LinuxWorkSpace/C++/Algorithms/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
